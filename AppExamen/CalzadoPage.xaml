@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamen.CalzadoPage"
+             Title="CalzadoPage">
+    <ScrollView>
+    <VerticalStackLayout>
+        <Label 
+        Text="Calzados"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Label>Id calzado:</Label>
+        <Entry x:Name="txtIdCalzado"></Entry>
+        <Label>Tipo:</Label>
+        <Entry x:Name="txtTipoCalzado"></Entry>
+        <Label>Precio unitario:</Label>
+        <Entry x:Name="txtPrecioUnitario"></Entry>
+        <Label>Talla:</Label>
+        <Entry x:Name="txtTalla"></Entry>
+        <Label>IVA:</Label>
+        <Entry x:Name="txtIVA"></Entry>
+        <Label>Id Marca:</Label>
+        <Entry x:Name="txtMarcaId"></Entry>
+
+        <Button x:Name="btnCreateCalzado" Text="INSERTAR" Clicked="btnCreateCalzado_Clicked"></Button>
+        <Button x:Name="btnReadCalzado" Text="LEER" Clicked="btnReadCalzado_Clicked"></Button>
+        <Button x:Name="btnUpdateCalzado" Text="ACTUALIZAR" Clicked="btnUpdateCalzado_Clicked"></Button>
+        <Button x:Name="btnDeleteCalzado" Text="BORRAR" Clicked="btnDeleteCalzado_Clicked"></Button>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

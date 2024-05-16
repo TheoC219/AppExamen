@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamen.HomePage"
+             Title="HomePage">
+    <VerticalStackLayout>
+        <Label x:Name="lblText" Text="Bienvenido"></Label>
+        <Button x:Name="btnCalzado" Text="Calzado" Clicked="btnCalzado_Clicked"></Button>
+        <!--<Label Text="o"></Label>-->
+        <Button x:Name="btnMarca" Text="Marcas" Clicked="btnMarca_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

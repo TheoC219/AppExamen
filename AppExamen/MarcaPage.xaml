@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamen.MarcaPage"
+             Title="MarcaPage">
+    <ScrollView>    
+    <VerticalStackLayout>
+        <Label 
+       Text="Marcas"
+       VerticalOptions="Center" 
+       HorizontalOptions="Center" />
+        <Label>Id marcas:</Label>
+        <Entry x:Name="txtId"></Entry>
+        <Label>Marca:</Label>
+        <Entry x:Name="txtMarca"></Entry>
+
+        <Button x:Name="btnreate" Text="INSERTAR" Clicked="btnCreateMarca_Clicked"></Button>
+        <Button x:Name="btnRead" Text="LEER" Clicked="btnReadMarca_Clicked"></Button>
+        <Button x:Name="btnUpdate" Text="ACTUALIZAR" Clicked="btnUpdateMarca_Clicked"></Button>
+        <Button x:Name="btnDelete" Text="BORRAR" Clicked="btnDeleteMarca_Clicked"></Button>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
